@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testando Videos Na minha HTML</title>
+    </head>
+    <body style="background: rgb(203, 23, 209);">
+        <h1>Mostrando o video na minha HTML localmente</h1>
+        <p>Aqui esta a nossa reprodução do video no meu proprio server</p>
+
+        <!--<video src="midia/tikteko.mp4" width="250px" controls loop></video>-->
+
+        <!--Consume muito trafego de dados a tag video-->
+        <video width="250px" controls loop>
+            <source src="midia/tikteko.mp4" type="video/mp4">
+            <p>Seu navegador não tem compatibilidade com reprodução de video</p>
+        </video>
+        <h1>Inserindo videos do YouTube</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M77sOCMC720" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>
